@@ -1,0 +1,24 @@
+#container {
+    width: 960px;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: black;
+    margin-top: 20px;
+}
+
+
+button {
+    padding: 12px 24px;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 8px;
+    cursor: pointer;
+    background-color: pink;
+    color: blue;
+    border-color: purple;
+    margin-top: 20px;
+}
+
+button:hover {
+    transform: scale(1.05);
+}
